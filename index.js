@@ -46,7 +46,7 @@ app.get('/:shortid', async (req, res) => {
 })
 
 // Setup your mongodb connection here
-mongoose.connect('mongodb://localhost/codedamn', {
+mongoose.connect('mongodb://localhost:27017/', {
 	useNewUrlParser: true,
 	useUnifiedTopology: true
 })
